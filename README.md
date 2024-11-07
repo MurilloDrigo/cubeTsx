@@ -7,9 +7,9 @@
 
 - **Publicação de Postagens**: Cada postagem inclui informações sobre o autor, conteúdo e data de publicação.
 - **Comentários**: Usuários podem adicionar comentários às postagens, e esses comentários são armazenados no servidor.
-![Demonstração comentario](src\assets\demo\comentario.gif)
+![Demonstração comentário](src/assets/demo/comentario.gif)
 - **Sistema de Aplausos**: Cada comentário pode receber "aplausos" (likes), que são contados e armazenados no servidor.
-![Demonstração](src\assets\demo\aplaudir.gif)
+![Demonstração aplauso](src/assets/demo/aplaudir.gif)
 - **Integração com json-server**: A aplicação usa json-server como uma API REST simulada para persistir dados.
 
 ## 🛠️ Tecnologias Utilizadas
