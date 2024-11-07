@@ -15,8 +15,7 @@
     justify-content: center;
     align-items: center;
     background: transparent;
-    border: 1px solid var(--green-300);
-    padding: 1rem;
+    padding: 0.3rem 0.8rem;
     transition: 0.2s;
     color: var(--green-300);
     border-radius: 8px;
@@ -25,4 +24,6 @@
 .logo:hover{
     background: var(--green-300);
     color: var(--gray-800);
+    cursor: pointer;
 }
+

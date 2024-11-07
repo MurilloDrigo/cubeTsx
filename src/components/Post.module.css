@@ -118,3 +118,30 @@ background: var(--green-300);
 .commentList{
     margin-top: 2rem;
 }
+
+
+.likeButton {
+    margin-top: 1rem;
+    background: transparent;
+    border: 0;
+    color: var(--gray-400);
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 2px;
+}
+
+.likeButton:hover{
+    color: var(--green-300);
+}
+
+.likeButton svg{
+    margin-right: 0.5rem;
+}
+
+.likeButton span::before{
+    content: "\2022";
+    padding: 0 0.25rem;
+}

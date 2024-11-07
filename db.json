@@ -1,9 +1,46 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "posts": [
+    {
+      "id": 1,
+      "author": {
+        "name": "Murillo Drigo",
+        "role": "Desenvolvedor",
+        "avatarUrl": "src/assets/murillo.png"
+      },
+      "publishedAt": "2024-11-06T12:00:00Z",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Este é um exemplo de post."
+        },
+        {
+          "type": "link",
+          "content": "https://exemplo.com"
+        }
+      ],
+      "comments": [
+        "Teste"
+      ],
+      "likeCount": 30
+    },
+    {
+      "id": 2,
+      "author": {
+        "name": "João Silva",
+        "role": "Designer",
+        "avatarUrl": "src/assets/joao.jpg"
+      },
+      "publishedAt": "2024-11-05T15:30:00Z",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Outro exemplo de post!"
+        }
+      ],
+      "comments": [
+        "Lorem Ipsum\n"
+      ],
+      "likeCount": 7
+    }
+  ]
+}
